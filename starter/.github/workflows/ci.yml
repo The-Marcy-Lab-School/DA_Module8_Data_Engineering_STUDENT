@@ -1,0 +1,33 @@
+# GIVEN, real, running CI workflow -- but with one real, deliberate gap.
+# This runs for real on every pull request (that's the point of the
+# objective 3 exercise: evaluate a REAL CI check, not a hypothetical
+# one) and it genuinely lints your DAG code. What it does NOT do: run
+# tests/test_dag_integrity.py -- meaning a DAG that's syntactically
+# valid but structurally broken (Airflow itself would refuse to load
+# it) can still pass this CI check today. Find and fix this real gap --
+# see required_components.md.
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install ruff
+
+      - name: Lint dags/
+        run: ruff check dags/
+
+      # TODO (real gap, not a placeholder for you to leave blank): this
+      # workflow never actually runs `tests/test_dag_integrity.py`, so a
+      # structurally broken DAG can still pass CI. Add the missing step.
