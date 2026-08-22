@@ -12,6 +12,20 @@ Astro CLI runs Airflow locally via Docker containers. If you don't
 already have Docker Desktop, install it first — everything below assumes
 `docker` works from your terminal.
 
+**Real memory requirement, confirmed by actually measuring it:** a
+running local Airflow stack (scheduler, triggerer, dag-processor,
+API server, its own Postgres) uses about **2GB of RAM on its own** --
+before your own DAG does anything. This is fixed orchestrator overhead,
+not something that scales with how much data your pipeline moves.
+Before `astro dev start`, open Docker Desktop's Settings → Resources and
+confirm it's allotted **at least 4GB** (8GB+ total system RAM
+recommended) -- if it's set lower (a common fresh-install default),
+raise it there, not by changing anything in this project. If containers
+keep getting killed or `astro dev start` hangs, this is almost always
+why -- check Docker Desktop's resource allocation and how much else you
+have open (extra browser windows, other VMs, etc.) before assuming your
+DAG code is the problem.
+
 ## Set up Astro CLI
 
 **Confirmed working without `sudo`** (the official one-line installer
