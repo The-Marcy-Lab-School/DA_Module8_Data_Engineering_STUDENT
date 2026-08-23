@@ -12,9 +12,10 @@ against Open-Meteo + Postgres before this template was written -- see
 ../../../instructor/solution/ if you're the instructor reading this).
 """
 from __future__ import annotations
-import pendulum
+
 import logging
 
+import pendulum
 from airflow.sdk import dag, task
 
 log = logging.getLogger(__name__)
