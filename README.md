@@ -37,6 +37,27 @@ first-ever pass and Module 4's second one).
 - **Choose a `LICENSE`.** Same call as every prior project.
 - **`git init`, commit both, then keep committing atomically as you go.**
 
+#### What your repo should look like once this step is done
+
+```
+your-repo-name/
+├── .gitignore              ← you create this
+├── LICENSE                 ← you create this
+├── README.md               ← already here
+├── PROJECT_OVERVIEW.md     ← already here
+├── GETTING_STARTED.md      ← already here
+├── CHECKLIST_TIMELINE.md   ← already here
+├── SCENARIOS.md            ← already here (real external source options)
+└── starter/
+    ├── dags/pipeline_dag.py       ← already here (fill in)
+    ├── requirements.txt           ← already here
+    ├── Dockerfile                 ← already here
+    ├── backlog.md                 ← already here (fill in)
+    ├── required_components.md     ← already here
+    ├── .github/workflows/ci.yml   ← already here
+    └── tests/dags/test_dag_integrity.py ← already here
+```
+
 ### Step 4: Set up Astro CLI
 
 See `GETTING_STARTED.md` — Astro CLI (Airflow) is new this module and
