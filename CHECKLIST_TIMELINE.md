@@ -61,4 +61,14 @@ on Days 1-2 is expected, not falling behind.
 - [ ] Real git history: your own `.gitignore`/`LICENSE`, feature-branch +
       PR workflow, never directly on `main`.
 - [ ] A real partner PR exchange — given and received.
+- [ ] **Delete `PROJECT_OVERVIEW.md` and `SCENARIOS.md`** — they explain
+      the assignment, not your project; a real portfolio repo shouldn't
+      have "here's what you were asked to build" sitting in it.
+- [ ] **Replace `README.md`'s content with your own real project README**
+      — write it for someone who's never seen this assignment:
+  - **Pipeline Purpose** — what real data it moves, and why.
+  - **Architecture Overview** — the DAG's real tasks and dependencies.
+  - **Design Decisions** — your retry/failure-handling approach and why.
+  - **Monitoring & Reliability Approach** — your real alert, what it
+    catches.
 - [ ] A real, proactive milestone check-in.
