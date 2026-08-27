@@ -1,10 +1,9 @@
 # Project Backlog & Timeline
 
-**Write this before you write any DAG code** — `exemplar_guidance`'s own
-advice: "a strong student can point to a specific backlog task for
-every hour they spent." A backlog written *after* the build, to match
-what you already did, doesn't demonstrate real prioritization — it's
-just a summary.
+**Write this before you write any DAG code.** A strong backlog lets you
+point to a specific task for every hour you spent building. A backlog
+written *after* the build, to match what you already did, doesn't
+demonstrate real prioritization — it's just a summary.
 
 ## Backlog
 

@@ -60,8 +60,8 @@ run it, don't just close your terminal, or the containers keep running.
 project ran against — not a new one.** Your DAG's `load` task needs to
 connect to it directly (via `psycopg2`, the same library from Module 4)
 — read the connection details from environment variables, never
-hardcode them (this module's own `common_project_mistakes`-adjacent
-habit, carried from every prior module).
+hardcode them (a real credential-in-code mistake that's easy to make
+under deadline pressure, and one graders specifically check for).
 
 1. Confirm it's still reachable: `psql <your connection string>`.
 2. Set the connection details as environment variables your DAG code can
