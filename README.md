@@ -71,7 +71,7 @@ and built a real dbt project against in Module 7.
 
 ## Find a real partner — this module needs one
 
-Objective 4's real collaboration requirement (and the
+This module's real partner-collaboration requirement (and the
 `collaboration-teamwork`/`git-version-control` grading) needs a **real
 second person**: someone gives you a real, substantive pull-request
 review comment, and you give one back. Pick a partner before Day 6 (see
@@ -88,9 +88,10 @@ real, incorporate the feedback, merge.
   structure (decorators, retry config points, task wiring), the actual
   extract/transform/load logic left as `TODO`/`NotImplementedError`.
   Following it is the guided rep; your real, independent project needs
-  more than filling in these three TODOs (see `MVP.md`).
-- Write `backlog.md` **before** you write real DAG logic —
-  `exemplar_guidance`'s own advice.
+  more than filling in these three TODOs — your instructor's shared
+  checklist has the full required scope.
+- Write `backlog.md` **before** you write real DAG logic — a strong
+  submission can point to a specific backlog task for every hour spent.
 - Build the real pipeline: extract from a real external source (see
   `SCENARIOS.md` for the two verified options), transform, load into
   your own warehouse.
@@ -108,8 +109,8 @@ real, incorporate the feedback, merge.
 sequenced checklist.
 
 **Where's the exact bar for "done," and what are the optional stretch
-goals?** This repo (your own copy) doesn't include `MVP.md` or
-`ABOVE_AND_BEYOND.md` on purpose — they're not something to keep sitting
+goals?** This repo (your own copy) doesn't include `MVP.md` (your **M**inimum **V**iable **P**roduct —
+the required baseline) or `ABOVE_AND_BEYOND.md` on purpose — they're not something to keep sitting
 in your portfolio repo. Ask your instructor for the link to this
 template's `project-scope` branch to read them, or check the checklist
 your instructor shares through the classroom, which covers the same

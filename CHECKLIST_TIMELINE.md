@@ -20,6 +20,10 @@ on Days 1-2 is expected, not falling behind.
       your warehouse.
 - [ ] DAG runs on a real schedule, no manual triggering needed after the
       first confirm.
+- [ ] **Stated and justified which approach — ETL or ELT — your pipeline
+      actually uses**, tied to your real source/target and data
+      volume/latency, not a default guess (`required_components.md`
+      Section 1). This is a required part of passing, not a bonus.
 
 ## Day 4 — Failure handling, for real
 
@@ -54,6 +58,9 @@ on Days 1-2 is expected, not falling behind.
 
 - [ ] A real, scheduled DAG, running end-to-end with no manual
       intervention.
+- [ ] Your ETL vs. ELT choice, stated and justified against your real
+      source/target and volume/latency (`required_components.md`
+      Section 1).
 - [ ] Retries genuinely tested against a real simulated failure.
 - [ ] Structured logging + ≥1 real, confirmed-firing alert.
 - [ ] The real CI gap found and fixed, proven with two real runs.

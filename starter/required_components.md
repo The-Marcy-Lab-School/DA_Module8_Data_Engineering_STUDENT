@@ -8,6 +8,10 @@ the pipeline itself.
 
 **Your real external source, and why you picked it:** TODO
 
+**Which approach your pipeline uses — ETL or ELT — and why** (tie it to
+your real source/target and actual data volume/latency, not a generic
+answer): TODO
+
 **Your target table, in your own Module 3/7 warehouse:** TODO
 
 **Real row count from an actual triggered run** (query your target table
@@ -15,8 +19,8 @@ directly, paste the real result): TODO
 
 ## 2. Failure handling — a real test, not a configured-and-assumed one
 
-`common_project_mistakes` #1 names this exact failure: retries
-configured but never actually tested. Don't let that be you.
+The single most common failure on this section: retries configured but
+never actually tested. Don't let that be you.
 
 **How you broke the source on purpose** (a real, specific action — rename
 a column, kill the connection mid-run, point at a bad URL): TODO
