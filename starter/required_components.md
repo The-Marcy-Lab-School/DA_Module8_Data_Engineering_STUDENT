@@ -6,16 +6,18 @@ the pipeline itself.
 
 ## 1. The pipeline (extract → transform → load)
 
-**Your real external source, and why you picked it:** TODO
+**Your team's real external sources — both, and who owned each path**
+(per `team_charter.md`): TODO
 
 **Which approach your pipeline uses — ETL or ELT — and why** (tie it to
 your real source/target and actual data volume/latency, not a generic
 answer): TODO
 
-**Your target table, in your own Module 3/7 warehouse:** TODO
+**Your target tables, in your team's chosen Module 3/7 warehouse** (one
+per source): TODO
 
-**Real row count from an actual triggered run** (query your target table
-directly, paste the real result): TODO
+**Real row counts from an actual triggered run** (query both target
+tables directly, paste the real results): TODO
 
 ## 2. Failure handling — a real test, not a configured-and-assumed one
 
@@ -50,20 +52,33 @@ CI success output. Two real runs, not one assumed.
 
 ## 5. Project management
 
-**Link to `backlog.md`** — this file should already exist and be filled
-in from before you started building, not backfilled now.
+**Link to `backlog.md` and `team_charter.md`** — both should already
+exist and be filled in from before you started building, not backfilled
+now.
 
-## 6. Git collaboration (a real partner exercise)
+## 6. Git collaboration (a real team, not a pair)
 
-**Your partner:** TODO
+**Every feature branch that was merged, and who reviewed each one** —
+list them, not just the last one: TODO
 
-**The real feature branch + PR you built together:** TODO — link it.
+**≥2 real, substantive review comments given to teammates** (paste them
+— "LGTM" doesn't count), and who gave which: TODO
 
-**The substantive review comment you gave them** (paste it — "LGTM"
-doesn't count): TODO
+**≥2 real peer comments received and incorporated**, and what changed in
+response: TODO
 
-**The real peer comment you received and incorporated** (paste it, and
-what you changed in response): TODO
+**Confirm branch protection was actually on `main`** (a screenshot or a
+description of the settings) — this is what makes the review requirement
+real, not optional: TODO
 
 **Your milestone check-in** — see `backlog.md`'s own section for this;
 confirm here that it was reported proactively, not after being asked.
+
+## 7. Team accountability
+
+**Link to `team_charter.md`** (the filled-in RACI) and every team
+member's own `individual_reflection_<name>.md`.
+
+**The group readout** — who presented which piece, and a one-line note
+on how the Q&A for each piece actually went (a role that couldn't
+answer a question about its own area is worth noting honestly here).
