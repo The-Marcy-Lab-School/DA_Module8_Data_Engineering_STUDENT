@@ -1,14 +1,17 @@
 """
 GIVEN TEMPLATE -- the real structure a working Airflow DAG needs
 (decorators, task wiring, retry/logging config points), with the actual
-extract/transform/load logic left as TODOs. This mirrors objective 1's
-own "following a provided DAG template" guided rep -- the independent
-project itself asks you to build this without a template, so don't just
-fill in these TODOs and call the project done; this file is your
-mechanical starting point, not your graded deliverable.
+extract/transform/load logic left as TODOs, for ONE source. This mirrors
+objective 1's own "following a provided DAG template" guided rep -- your
+team's real independent work is to fill this in for your first source
+AND build a real, parallel extract/transform/load path for your second
+required source (see SCENARIOS.md -- both Open-Meteo and NASA are
+required), wired into this same DAG. Don't just fill in these TODOs and
+call the project done; this file is your mechanical starting point for
+one path, not your whole graded deliverable.
 
-Real, verified pattern (this exact structure was built and run for real
-against Open-Meteo + Postgres before this template was written -- see
+Real, verified pattern (this exact structure, for both sources, was
+built and run for real before this template was written -- see
 ../../../instructor/solution/ if you're the instructor reading this).
 """
 from __future__ import annotations

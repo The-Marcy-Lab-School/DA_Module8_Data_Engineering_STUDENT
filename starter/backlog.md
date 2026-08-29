@@ -9,21 +9,23 @@ demonstrate real prioritization — it's just a summary.
 
 At least 5 discrete, sequenced tasks. Order reflects real dependencies
 (e.g. "build extract task" has to come before "write monitoring
-alerts") — not an arbitrary list. Each needs a real estimate.
+alerts") — not an arbitrary list. Each needs a real estimate **and a
+real owner from `team_charter.md`** — a task with no owner is a task
+nobody's actually accountable for.
 
-| # | Task | Depends on | Est. hours | Status |
-|---|---|---|---|---|
-| 1 | TODO | — | TODO | Not started |
-| 2 | TODO | TODO (#) | TODO | Not started |
-| 3 | TODO | TODO (#) | TODO | Not started |
-| 4 | TODO | TODO (#) | TODO | Not started |
-| 5 | TODO | TODO (#) | TODO | Not started |
+| # | Task | Owner | Depends on | Est. hours | Status |
+|---|---|---|---|---|---|
+| 1 | TODO | TODO | — | TODO | Not started |
+| 2 | TODO | TODO | TODO (#) | TODO | Not started |
+| 3 | TODO | TODO | TODO (#) | TODO | Not started |
+| 4 | TODO | TODO | TODO (#) | TODO | Not started |
+| 5 | TODO | TODO | TODO (#) | TODO | Not started |
 
 ## Timeline
 
-Map the backlog onto your real 8 real days. If a task's estimate
+Map the backlog onto your real 9 real days. If a task's estimate
 doesn't fit, that's real information — decide now what moves to Above &
-Beyond, not on day 7.
+Beyond, not on day 8.
 
 | Day | Planned task(s) |
 |---|---|
@@ -35,12 +37,13 @@ Beyond, not on day 7.
 | 6 | TODO |
 | 7 | TODO |
 | 8 | TODO |
+| 9 | TODO |
 
 ## Prioritization reasoning
 
 **Why this task order, against this real deadline?** Not "these felt
 important" — a real justification tied to the dependency chain and the
-actual 8-day constraint.
+actual 9-day constraint.
 
 TODO
 
@@ -50,4 +53,6 @@ TODO
 **If at risk, the specific reason (not "running behind"):** TODO
 
 This should be reported **proactively** — before anyone asks — per
-`ownership-accountability`'s own real assessment method.
+`ownership-accountability`'s own real assessment method. **Whoever's PM
+posts this**, but it should reflect the whole team's real status, not
+just their own piece.
