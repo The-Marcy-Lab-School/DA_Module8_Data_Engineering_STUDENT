@@ -3,12 +3,13 @@
 Optional. Do these **after** MVP is genuinely solid — a shaky pipeline
 with extra features isn't the goal. Pick 1-2, not all of them.
 
-## A second real source, or a second target table
+## A third real target, or a deeper rollup
 
-Add a second real external source (Open-Meteo *and* NASA, say), or load
-your existing source into a second target table with a different real
-grain (e.g. raw hourly readings *and* a real daily rollup). Show it
-actually running, with real row counts for both.
+Both required sources are the MVP bar now, not a stretch goal. Instead,
+load one of your two sources into a **second** target table with a
+different real grain (e.g. raw hourly Open-Meteo readings *and* a real
+daily rollup, or raw NASA APOD rows *and* a real monthly summary). Show
+it actually running, with real row counts for both grains.
 
 ## The ETL-vs-ELT tradeoff, written for your specific pipeline
 
