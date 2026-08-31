@@ -59,3 +59,28 @@ first (per the RACI above), what they do about it, and at what point it
 becomes a milestone-check-in issue (see `backlog.md`).
 
 TODO
+
+## If something goes wrong between teammates, not just with the work
+
+Real teams sometimes hit real friction — a disagreement about a
+technical call, someone going quiet and not responding, uneven effort.
+This is normal, not a sign your team is broken. A real plan:
+
+1. **Try a direct, specific conversation first** — "I noticed X, can we
+   figure out Y together" — before assuming the worst. Most of this
+   resolves at this step.
+2. **If it doesn't resolve, or someone's genuinely unresponsive for
+   more than ~48 hours during an active sprint**, loop in your
+   instructor directly — this is exactly the kind of thing
+   instructors expect to help with mid-project, not a sign of failure
+   to ask. Don't wait until the deadline to raise it for the first
+   time.
+3. **Document it factually in `individual_reflection_<name>.md`** if it
+   affected your own work — real, specific, not accusatory ("the
+   NASA-path PR sat unreviewed for 4 days after two pings" is useful;
+   "my teammate didn't care" isn't).
+
+TODO (as a team, before you need this): who's the first point of
+contact if this comes up, and what's your team's actual comfort level
+with looping in the instructor early vs. trying to resolve it
+yourselves first?

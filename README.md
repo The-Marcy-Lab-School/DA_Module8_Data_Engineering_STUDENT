@@ -7,8 +7,9 @@ Technical Lead, Business Analyst, QA/Reliability Lead) split
 accountability. This file (`README.md`) is where the step-by-step setup
 lives.
 
-**Due:** 9 days, run as a sprint. See `CHECKLIST_TIMELINE.md` for the
-day-by-day pace and the full submission checklist.
+**Due:** 9 days, ending in your team's own group readout (Day 9 — see
+`CHECKLIST_TIMELINE.md`, no separate instructor-scheduled session this
+time, this one's yours to present).
 
 This repo is a **GitHub template** — a starting point, not something you
 edit directly on Marcy's copy of it.
@@ -22,6 +23,17 @@ Lead**, **Business Analyst**, **QA/Reliability Lead**. At 3 people, PM
 and Business Analyst combine into one role (the lightest individual
 technical load of the four) — say so explicitly in `team_charter.md`,
 don't leave it implicit.
+
+**If it's not obvious who takes which role**, don't just default to
+whoever's loudest or most experienced — go around and have each person
+name one role they'd genuinely like to grow in and one they'd rather
+not take on this time, then fill gaps together. No role is "the easy
+one": PM's real work is keeping 3 other people unblocked and on
+schedule, which is its own skill, not a lesser one. If two people want
+the same role, it's fine to trade off which of you leads which *sub*-
+task within that role (e.g., co-Technical-Leads splitting the two
+sources) — say so in `team_charter.md` rather than forcing an arbitrary
+pick.
 
 ### Step 2: Get your team's copy
 
@@ -138,6 +150,13 @@ accountable for everything fails that check.
   substantive review from a teammate before merging (branch protection
   enforces this). Not one exchange with one partner — this is how the
   whole team's work gets merged, the entire sprint.
+  - **A real norm, so no one's stuck waiting**: agree as a team on a
+    real review turnaround (e.g., "within 24 hours, or same-day if it's
+    blocking someone"). If your PR sits unreviewed past that, ping the
+    team channel directly rather than silently waiting — and if a
+    reviewer is genuinely unavailable, any other teammate can review it
+    instead. The point of branch protection is safety, not a bottleneck
+    — agree on the norm before you need it, not mid-sprint.
 - Fill in `required_components.md` and `individual_reflection.md` (your
   own copy) as you go, not from memory at the end.
 
