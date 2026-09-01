@@ -14,7 +14,7 @@ team should understand the whole pipeline by the end.
       protection on `main`** turned on (require 1 approving review).
 - [ ] Real `.gitignore`/`LICENSE` created together, first commits made,
       every member's name on the `LICENSE` copyright line.
-- [ ] Team picked **one** member's Module 3/7 warehouse; access shared
+- [ ] Team picked **one** member's Module 3/8 warehouse; access shared
       securely (not committed, not in a public channel).
 - [ ] **`team_charter.md` written** — the real RACI, before any DAG code.
 - [ ] **`backlog.md` written** — before any real DAG logic, tasks tied to

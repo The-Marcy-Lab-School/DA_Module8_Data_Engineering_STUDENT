@@ -58,7 +58,7 @@ run it, don't just close your terminal, or the containers keep running.
 
 ## Whose warehouse? Pick one, share access to it securely
 
-Each of you has your **own** Module 3/7 warehouse from earlier in the
+Each of you has your **own** Module 3/8 warehouse from earlier in the
 program — four separate databases. This pipeline loads into **one**
 team warehouse, not four. Pick one member's (doesn't have to be the
 Technical Lead's, but that's the natural default) and use it for the

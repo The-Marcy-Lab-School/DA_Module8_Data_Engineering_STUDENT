@@ -13,7 +13,7 @@ the pipeline itself.
 your real source/target and actual data volume/latency, not a generic
 answer): TODO
 
-**Your target tables, in your team's chosen Module 3/7 warehouse** (one
+**Your target tables, in your team's chosen Module 3/8 warehouse** (one
 per source): TODO
 
 **Real row counts from an actual triggered run** (query both target
