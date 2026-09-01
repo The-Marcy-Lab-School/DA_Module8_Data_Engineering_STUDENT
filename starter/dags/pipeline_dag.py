@@ -59,8 +59,8 @@ def pipeline_dag():
 
     @task
     def load(rows):
-        """TODO: load into your own Module 3/7 warehouse -- reuse the
-        same connection approach from Module 4/7 (read credentials from
+        """TODO: load into your own Module 3/8 warehouse -- reuse the
+        same connection approach from Module 4/8 (read credentials from
         the environment, never hardcode them). Return a real row count
         so it shows up in the task's XCom / logs."""
         raise NotImplementedError("TODO: implement load()")
