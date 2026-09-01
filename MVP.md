@@ -11,7 +11,7 @@ shared it — this is the same bar in checklist form.
 - [ ] Extract from **both** real external sources (`SCENARIOS.md`) —
       Open-Meteo and NASA, each with its own owner (per
       `team_charter.md`); transform in real Python tasks; load into two
-      **new tables** in your team's chosen Module 3/7 warehouse — real
+      **new tables** in your team's chosen Module 3/8 warehouse — real
       row counts land, confirmed with a direct `SELECT`, not just "the
       task turned green."
 - [ ] Correctly identifies (and can explain) whether your specific
