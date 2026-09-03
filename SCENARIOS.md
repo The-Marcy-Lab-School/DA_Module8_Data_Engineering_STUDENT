@@ -1,7 +1,7 @@
 # Your Real External Source
 
 Unlike prior modules, this project doesn't pick a data **domain** — you
-already have one, from Module 3/8. What's new here is the **source**:
+already have one, from Module 3/7. What's new here is the **source**:
 a real external API your pipeline extracts from, on its own schedule,
 independent of your existing warehouse data. Pick one.
 
@@ -37,6 +37,6 @@ just an image URL).
   failure (a bad response, a timeout) — that's what makes your retry
   configuration meaningful. Don't swallow errors just to make the task
   "succeed."
-- Your `load` task writes into a **new table** in your own Module 3/8
+- Your `load` task writes into a **new table** in your own Module 3/7
   warehouse — this is new data, not overwriting your existing domain
   tables.
