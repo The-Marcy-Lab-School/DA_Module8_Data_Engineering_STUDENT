@@ -8,7 +8,7 @@ with real, individually graded accountability.
 Build a real, scheduled, monitored, automated ETL/ELT pipeline in
 **Apache Airflow** (via **Astro CLI**) that ingests from **both** of this
 module's real external sources, transforms the data, and loads it into
-your team's chosen **Module 3/8** data warehouse. Delivered with a
+your team's chosen **Module 3/7** data warehouse. Delivered with a
 version-controlled, peer-reviewed GitHub repository (real feature-branch
 + pull-request workflow, enforced by real branch protection, reviewed by
 real teammates) and a written project backlog/timeline and team charter
@@ -24,7 +24,7 @@ named roles and real, individually graded accountability — the same
 shape a real data-platform team actually works in: a PM tracking scope
 and timeline, a Technical Lead making architecture calls, a Business
 Analyst translating the pipeline's purpose for a stakeholder, and a
-QA/Reliability Lead making sure it doesn't silently break. **Module 10**
+QA/Reliability Lead making sure it doesn't silently break. **Module 9**
 builds on this same orchestration instinct at cloud/distributed scale.
 
 ## Deliverables at a glance
@@ -76,6 +76,6 @@ the full submission checklist.
 
 Go to `README.md` to form your team and assign roles, then
 `GETTING_STARTED.md` — Astro CLI setup (no sudo needed) and picking your
-team's shared Module 3/8 warehouse. **Set up your team's git repo from
+team's shared Module 3/7 warehouse. **Set up your team's git repo from
 scratch this time** — `.gitignore`/`LICENSE` aren't given, a real second
 rep of Module 0/4's own skill, done together this time.

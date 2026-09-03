@@ -61,7 +61,7 @@ rule everyone's supposed to remember.
 
 ### Step 4: Set up git — this module tests it again
 
-Unlike Module 3/6/7/8, this repo does **not** come with `.gitignore` or
+Unlike Module 3/6/7/7, this repo does **not** come with `.gitignore` or
 `LICENSE` already made — `git-version-control` is being tested again,
 this time expecting real independence (a third rep, after Module 0's
 first-ever pass and Module 4's second one). **One person does this
@@ -110,7 +110,7 @@ but each of you runs it on your own machine.
 ### Step 6: Pick and connect to the team's warehouse
 
 Also in `GETTING_STARTED.md` — your team picks **one member's** existing
-Module 3/8 warehouse to use for this project (not four separate
+Module 3/7 warehouse to use for this project (not four separate
 databases), and shares access to it securely. Read that section before
 anyone starts writing DAG code.
 
